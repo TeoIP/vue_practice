@@ -1,18 +1,19 @@
 <template>
-	<button>
+	<button class="btn">
 		<slot>
 		</slot>
 	</button>
 </template>
 
 <script>
+export default {
+	name: 'my-button'
+}
 </script>
 <style>
 .btn {
-	margin-top: 10px;
 	text-align: center;
 	display: flex;
-	width: 70px;
 	align-items: center;
 	justify-content: center;
 	outline: 0;
